@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://as2.ftcdn.net/v2/jpg/03/39/53/87/500_F_339538724_AI3E02IF5v77nGn4ZMZj1qwMUOZRebGe.jpg);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="Password"]{
+border: 0;
+background: none;
+display: black;
+margin: 20px auto;
+text-align: center;
+border: 3px solid #0367fd;
+padding: 14px 10px;
+width: 200px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="Password"]:focus{
+width: 270px;
+border-color: #ffc400ec;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: black;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid;
+    padding: 14px 35px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}
